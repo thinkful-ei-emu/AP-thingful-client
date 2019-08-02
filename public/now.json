@@ -1,0 +1,15 @@
+{
+    "version": 2,
+    "alias": "adp8ke-thingful-client",
+    "name": "thingful-client",
+    "routes": [
+        {
+          "src": "^/static/(.*)",
+          "dest": "/static/$1"
+        },
+        {
+          "src": ".*",
+          "dest": "/index.html"
+        }
+    ]
+  }
